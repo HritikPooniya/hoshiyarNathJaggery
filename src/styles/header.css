@@ -1,0 +1,35 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  height: 10vh;
+  
+  background: rgb(226, 202, 159);
+  background: linear-gradient(
+    90deg,
+    rgba(226, 202, 159, 1) 0%,
+    rgba(255, 255, 255, 1) 28%,
+    rgba(255, 255, 255, 1) 75%,
+    rgba(166, 224, 163, 1) 100%
+  );
+}
+.logo {
+  height: 9vh;
+}
+.tags {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.tags div {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.tags div:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
